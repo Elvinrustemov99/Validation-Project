@@ -3,7 +3,7 @@ const usernameInput = document.getElementById("username");
 const emailInput = document.getElementById("email");
 const passwordInput = document.getElementById("password");
 const password2Input = document.getElementById("password2");
-
+console.log("Draft");
 form.addEventListener('submit', e => {
 	e.preventDefault();
 	inputValidation();
