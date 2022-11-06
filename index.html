@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <title>Validation</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>Create Account</h2>
+    </div>
+    <form id="form" class="form">
+      <div class="form-control">
+        <label for="username">İstifadəçi Adı</label>
+        <input type="text" placeholder="user00" id="username" />
+        <i class='bx bxs-check-square' ></i>
+        <i class='bx bxs-message-square-error' ></i>
+        <small></small>
+      </div>
+      <div class="form-control">
+        <label for="username">Email</label>
+        <input type="email" placeholder="a@florin-pop.com" id="email" />
+        <i class='bx bxs-check-square' ></i>
+        <i class='bx bxs-message-square-error' ></i>
+        <small></small>
+      </div>
+      <div class="form-control">
+        <label for="username">Şifrə</label>
+        <input type="password" placeholder="Password" id="password" />
+        <i class='bx bxs-check-square' ></i>
+        <i class='bx bxs-message-square-error' ></i>
+        <small></small>
+      </div>
+      <div class="form-control">
+        <label for="username">Şifrə Təkrarı</label>
+        <input type="password" placeholder="Password Again" id="password2" />
+        <i class='bx bxs-check-square' ></i>
+        <i class='bx bxs-message-square-error' ></i>
+        <small></small>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
